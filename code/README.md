@@ -1,6 +1,6 @@
 # Main code
 
-NeoForge **1.21.1** sources for Modern Mod Pack. This loader is what CurseForge uses for Forge-family mods.
+Forge **1.20.1** sources for Modern Mod Pack. CurseForge 1.20.1 profiles use Forge.
 
 ## Build the CurseForge jar
 
@@ -14,7 +14,7 @@ The installable file is:
 
 `build/libs/modern_mod_pack-1.0.0.jar`
 
-Put that jar in a **Minecraft 1.21.1 NeoForge** profile’s `mods` folder (CurseForge app or a manual install).
+Put that jar in a **Minecraft 1.20.1 Forge** profile’s `mods` folder (CurseForge app or a manual install).
 
 ## Publish to CurseForge
 
