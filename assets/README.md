@@ -2,7 +2,7 @@
 
 This is the asset repository for Modern Mod Pack.
 
-Files under `modern_mod_pack/` use the Minecraft asset namespace. At build time they belong on the classpath as `assets/modern_mod_pack/` inside the mod jar (typically `code/src/main/resources/assets/modern_mod_pack/`).
+Files under `modern_mod_pack/` use the Minecraft asset namespace. Gradle copies this folder into the CurseForge jar as `assets/modern_mod_pack/`.
 
 | Path | Contents |
 | --- | --- |

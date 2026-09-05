@@ -1,11 +1,27 @@
 # Modern Mod Pack
 
-This repository is a **Minecraft mod** split as a polyrepo workspace:
+This repository is a **Minecraft NeoForge 1.21.1 mod**. It is set up so you can install and publish it through [CurseForge](https://www.curseforge.com/).
 
 | Path | Role |
 | --- | --- |
-| [`code/`](code/) | Main mod source |
+| [`code/`](code/) | Main mod source and Gradle build |
 | [`assets/`](assets/) | Textures, models, language files, and other game assets |
+
+## CurseForge
+
+CurseForge installs **jars**, not this GitHub folder. Build the jar from `code/`:
+
+```bash
+cd code
+./gradlew build
+```
+
+Then either:
+
+- Drop `code/build/libs/modern_mod_pack-1.0.0.jar` into a CurseForge **Minecraft 1.21.1 NeoForge** instance `mods` folder, or
+- Create a CurseForge project, set `curseforge_project_id` in `code/gradle.properties`, export `CURSEFORGE_TOKEN`, and run `./gradlew publishCurseForge`
+
+This is a **NeoForge** mod, not Fabric. In the CurseForge app, the profile must use NeoForge for 1.21.1.
 
 Keep Java/Kotlin (and build files) in `code/`. Keep resource-pack-style files in `assets/` under the `modern_mod_pack` namespace.
 
