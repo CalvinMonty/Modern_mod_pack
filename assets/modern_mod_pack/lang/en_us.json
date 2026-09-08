@@ -1,3 +1,7 @@
 {
-  "itemGroup.modern_mod_pack": "Modern Mod Pack"
+  "itemGroup.modern_mod_pack": "Modern Mod Pack",
+  "item.modern_mod_pack.template_helmet": "Template Helmet",
+  "item.modern_mod_pack.template_chestplate": "Template Chestplate",
+  "item.modern_mod_pack.template_leggings": "Template Leggings",
+  "item.modern_mod_pack.template_boots": "Template Boots"
 }

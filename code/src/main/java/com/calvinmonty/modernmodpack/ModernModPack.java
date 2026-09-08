@@ -4,6 +4,8 @@ import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
 
+import com.calvinmonty.modernmodpack.registry.ModItems;
+
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -16,6 +18,7 @@ public class ModernModPack {
 
     public ModernModPack(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
+        ModItems.register(modEventBus);
         modEventBus.addListener(this::onCommonSetup);
     }
 
