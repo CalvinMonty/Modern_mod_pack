@@ -1,6 +1,6 @@
 # Assets
 
-This is the asset repository for Modern Mod Pack.
+This is the asset tree for the Minecraft **Forge 1.20.1** mod.
 
 Files under `modern_mod_pack/` use the Minecraft asset namespace. Gradle copies this folder into the CurseForge jar as `assets/modern_mod_pack/`.
 
