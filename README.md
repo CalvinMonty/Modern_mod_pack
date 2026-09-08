@@ -2,6 +2,9 @@
 
 A Minecraft Forge 1.20.1 mod.
 
-`code/` holds the Java source. `assets/` holds textures, models, language files, and other resources.
+| Path | Contents |
+| --- | --- |
+| [`code/`](code/) | Java source and Gradle build |
+| [`assets/`](assets/) | Textures, models, language files, and sounds |
 
 Licensed under the [MIT License](LICENSE).
